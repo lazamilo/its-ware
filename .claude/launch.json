@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "itsware-site", "runtimeExecutable": "node", "runtimeArgs": ["/Users/lazarmilosevic/Desktop/its ware/serve.mjs"], "port": 4817 }
+  ]
+}
