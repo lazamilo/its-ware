@@ -12,8 +12,8 @@ Then open http://localhost:4817.
 
 ## Structure
 
-- `site/index.html`: the homepage
-- `site/assets/css/style.css`, `site/assets/js/main.js`: styles and motion (GSAP, ScrollTrigger, Lenis, vendored in `assets/vendor`)
-- `site/assets/img`: imagery, logos and video from the current itsware.com
-- `site/assets/gen`: new imagery generated with Higgsfield (Nano Banana 2.1)
-- `site/assets/fonts`: Maison Neue
+- `index.html`: the homepage
+- `assets/css/style.css`, `assets/js/main.js`: styles and motion (GSAP, ScrollTrigger, Lenis, vendored in `assets/vendor`)
+- `assets/img`: imagery, logos and video from the current itsware.com
+- `assets/gen`: new imagery generated with Higgsfield (Nano Banana 2.1)
+- `assets/fonts`: Maison Neue

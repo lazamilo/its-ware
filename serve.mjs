@@ -1,5 +1,5 @@
 import http from 'node:http'; import fs from 'node:fs'; import path from 'node:path'; import url from 'node:url';
-const root = path.join(path.dirname(url.fileURLToPath(import.meta.url)), 'site');
+const root = path.dirname(url.fileURLToPath(import.meta.url));
 const port = +process.env.PORT || 4817;
 const types = {'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.mjs':'text/javascript','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.mp4':'video/mp4','.otf':'font/otf','.woff2':'font/woff2','.json':'application/json'};
 http.createServer((req, res) => {
